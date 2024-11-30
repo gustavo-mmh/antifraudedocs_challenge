@@ -1,0 +1,252 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "BlobServiceClient",
+        "importPath": "azure.storage.blob",
+        "description": "azure.storage.blob",
+        "isExtraImport": true,
+        "detail": "azure.storage.blob",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "utils.Config",
+        "description": "utils.Config",
+        "isExtraImport": true,
+        "detail": "utils.Config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "utils.Config",
+        "description": "utils.Config",
+        "isExtraImport": true,
+        "detail": "utils.Config",
+        "documentation": {}
+    },
+    {
+        "label": "AzureKeyCredential",
+        "importPath": "azure.core.credentials",
+        "description": "azure.core.credentials",
+        "isExtraImport": true,
+        "detail": "azure.core.credentials",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentIntelligenceClient",
+        "importPath": "azure.ai.documentintelligence",
+        "description": "azure.ai.documentintelligence",
+        "isExtraImport": true,
+        "detail": "azure.ai.documentintelligence",
+        "documentation": {}
+    },
+    {
+        "label": "AnalyzeDocumentRequest",
+        "importPath": "azure.ai.documentintelligence.models",
+        "description": "azure.ai.documentintelligence.models",
+        "isExtraImport": true,
+        "detail": "azure.ai.documentintelligence.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "analise_credit_card",
+        "importPath": "services.credit_card_service",
+        "description": "services.credit_card_service",
+        "isExtraImport": true,
+        "detail": "services.credit_card_service",
+        "documentation": {}
+    },
+    {
+        "label": "upload_file_to_blob_storage",
+        "importPath": "services.blob_service",
+        "description": "services.blob_service",
+        "isExtraImport": true,
+        "detail": "services.blob_service",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "upload_file_to_blob_storage",
+        "kind": 2,
+        "importPath": "src.services.blob_service",
+        "description": "src.services.blob_service",
+        "peekOfCode": "def upload_file_to_blob_storage(local_file_path: str, blob_name: str) -> Any | None:\n    try:\n        blob_service_client = BlobServiceClient.from_connection_string(\n            Config.AZURE_STORAGE_CONNECTION_STRING\n        )\n        blob_client = blob_service_client.get_blob_client(\n            container=Config.CONTAINER_NAME, blob=blob_name\n        )\n        blob_client.upload_blob(local_file_path, overwrite=True)\n        return blob_client.url",
+        "detail": "src.services.blob_service",
+        "documentation": {}
+    },
+    {
+        "label": "analise_credit_card",
+        "kind": 2,
+        "importPath": "src.services.credit_card_service",
+        "description": "src.services.credit_card_service",
+        "peekOfCode": "def analise_credit_card(card_url):\n    try:\n        credentials = AzureKeyCredential(Config.KEY)\n        document_client = DocumentIntelligenceClient(\n            Config.ENDPOINT, credentials\n        )\n        card_info = document_client.begin_analyze_document(\n            \"prebuilt-creditCard\", AnalyzeDocumentRequest(url_source=card_url)\n        )\n        result = card_info.result()",
+        "detail": "src.services.credit_card_service",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "src.utils.Config",
+        "description": "src.utils.Config",
+        "peekOfCode": "class Config:\n    ENDPOINT = os.getenv(\"ENDPOINT\")\n    KEY = os.getenv(\"SUBSCRIPTION_KEY\")\n    AZURE_STORAGE_CONNECTION_STRING = os.getenv(\"AZURE_STORAGE_CONNECTION_STRING\")\n    CONTAINER_NAME = os.getenv(\"CONTAINER_NAME\")",
+        "detail": "src.utils.Config",
+        "documentation": {}
+    },
+    {
+        "label": "configure_interface",
+        "kind": 2,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "def configure_interface():\n    st.title(\"Upload de Arquivos DIO - desafio 2 - Azure - AntifraudeDocs\")\n    uploaded_file = st.file_uploader(\"Faça o upload do arquivo\", type=[\"png\", \"jpg\", \"jpeg\", \"pdf\"])\n    if uploaded_file is not None:\n        filename = uploaded_file.name\n        blob_url = upload_file_to_blob_storage(uploaded_file, filename)\n        if blob_url:\n            st.write(f\"Arquivo {filename} enviado com sucesso para o Azure Blob Storage!\")\n            credit_card_info = analise_credit_card(blob_url)\n            print(credit_card_info)",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "show_image_and_validate",
+        "kind": 2,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "def show_image_and_validate(blob_url, credit_card_info):\n        st.image(blob_url, caption=\"Imagem carregada\", use_container_width=True)\n        st.write(\"Resultado da Validação:\")\n        try:\n            if credit_card_info and credit_card_info['card_name']:\n                st.markdown(f\"<h1 style='color:green;'>Cartão Validado</h1>\", unsafe_allow_html=True)\n                st.write(f\"Nome do Titular: {credit_card_info['card_name']}\")\n                st.write(f\"Banco Emissor: {credit_card_info['bank_name']}\")\n                st.write(f\"Validade do Cartão: {credit_card_info['expiry_date']}\")\n            else:",
+        "detail": "src.app",
+        "documentation": {}
+    }
+]
